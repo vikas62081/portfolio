@@ -1,0 +1,265 @@
+{
+  "name": "Vikas Kumar Vishwakarma",
+  "pageTitle": "Vikas's Profile",
+  "email": "vikas62081@gmail.com",
+  "phoneNumber": "+1 9132388038",
+  "whatsAppNumber": "19132388038",
+  "captions": [
+    "Aspiring Software Engineer",
+    "Full-Stack Developer",
+    "Proficient in React, Spring Boot, and Python",
+    "Actively Seeking Internship Opportunities",
+    "YouTuber at CodeNemy",
+    "Passionate Tech Enthusiast"
+  ],
+  "links": {
+    "profilePic": "https://avatars.githubusercontent.com/u/45706086?s=400&u=64f20720036b8963d58d32f5477a18a4e8e8674a&v=4",
+    "resume": "https://drive.google.com/file/d/12wzPw9PxHSm9UXyJVHjed_Bvacy8OQ1Q/view?usp=sharing",
+    "gitHub": "https://github.com/vikas62081",
+    "linkedIn": "https://www.linkedin.com/in/vikas62081",
+    "instagram": "https://instagram.com/imvikas62081",
+    "others": "https://www.instagram.com"
+  },
+  "educations": [
+    {
+      "degree": "Master of Science (M.S)",
+      "branch": "Data Science & Artificial Intelligence",
+      "university": "University of Central Missouri",
+      "year": "(2024 - present)",
+      "icon": "https://www.ucmo.edu/offices/integrated-marketing-and-communications/internal-resources/fac-staff/ucm-branding/ucm-logos/images/mule-rt-b.png",
+      "iconBgColor": "#ffffff"
+    },
+    {
+      "degree": "Bachelor of Engineering (B.Tech)",
+      "branch": "Computer Science & Engineering",
+      "university": "Anna University",
+      "year": "(2015 - 2019)",
+      "icon": "//upload.wikimedia.org/wikipedia/en/thumb/4/49/Anna_University_Logo.svg/220px-Anna_University_Logo.svg.png",
+      "iconBgColor": "#ffffff"
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "branch": "Intermediate in Science",
+      "university": "Jharkhand Academic Council",
+      "icon": "https://www.jacresults.com/images/logo1.png",
+      "year": "2013 - 2015",
+      "iconBgColor": "#ffffff"
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "companyName": "Yubi",
+      "iconLink": "https://www.go-yubi.com/wp-content/themes/yubi-bee/assets/img/yubi-logo-color.svg",
+      "iconBg": "#383E56",
+      "date": "March 2022 - December 2023",
+      "points": [
+        "Developed and maintained full-stack applications using Spring Boot and React.js, improving platform efficiency by 30%.",
+        "Implemented event-driven architectures using Apache Kafka, enhancing system scalability and real-time data processing",
+        "Collaborated with cross-functional teams to design and implement RESTful APIs, ensuring seamless integration with front-end applications",
+        "Utilised Docker for containerization, streamlining deployment processes and reducing setup time by 40%"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "companyName": "Virtusa",
+      "iconLink": "https://www.virtusa.com/is/content/virtusa/new-logo?$fixedsize.200.100$&fit=constrain&bfc=on",
+      "iconBg": "#494bc4",
+      "date": "June 2019 - March 2022",
+      "points": [
+        "Built responsive Single Page Applications (SPAs) using React.js, integrating with Java-based REST APIs",
+        "Designed and developed RESTful APIs using Node.js and Express.js, improving data retrieval speed by 25%",
+        "Conducted unit testing for React.js frontend code using Enzyme, increasing code coverage to 90%",
+        "Mentored junior developers in best practices for full-stack development and version control using Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "UCM Simplified",
+      "description": "Led a team to develop a university app for students using TypeScript, React.js, Python, FastAPI, and MongoDB. Key features included professor ratings, subject swaps, an accommodation finder, and an integrated mailing system. You also applied data analytics to offer insights into professor ratings and subject popularity.",
+      "tags": [
+        {
+          "name": "FastAPI",
+          "color": "#4dcc4d"
+        },
+        {
+          "name": "ReactJS",
+          "color": "#1eb889"
+        },
+        {
+          "name": "EdTech",
+          "color": "#915eff"
+        }
+      ],
+      "icon": "",
+      "source_link": "https://github.com/shinchancode/Cryptography",
+      "source_code_link": "https://github.com/vikas62081/ucm_simplified"
+    },
+    {
+      "name": "Unity Funds",
+      "description": "Built a mobile-friendly app with Flutter and Google Firebase to manage village festival finances. It included machine learning algorithms for expense prediction and budget optimization, along with a well-designed admin panel for financial reporting.",
+      "tags": [
+        {
+          "name": "Flutter",
+          "color": "#4dcc4d"
+        },
+        {
+          "name": "MachineLearning",
+          "color": "#1eb889"
+        },
+        {
+          "name": "Firebase",
+          "color": "#915eff"
+        },
+        { "name": "Fintech", "color": "#6494f0" }
+      ],
+      "icon": "",
+      "source_link": "https://github.com/shinchancode/Cryptography",
+      "source_code_link": "https://github.com/vikas62081/ucm_simplified"
+    },
+    {
+      "name": "Todo App",
+      "description": "Developed a Todo app to help users organize and manage their daily routines. The app allows users to add, edit, and track tasks efficiently. It was built using React and React Hooks, ensuring a modern and responsive user interface. The project demonstrates your skills in React-based development and state management.",
+      "tags": [
+        {
+          "name": "React",
+          "color": "#4dcc4d"
+        },
+        {
+          "name": "ReactHooks",
+          "color": "#1eb889"
+        },
+        {
+          "name": "TodoApp",
+          "color": "#7676ff"
+        }
+      ],
+      "icon": "",
+      "source_link": "https://vikas62081.github.io/newTodos/",
+      "source_code_link": "https://github.com/vikas62081/newTodos"
+    },
+    {
+      "name": "Corona Tracker Application",
+      "description": "Developed a Corona Tracker app to visualize the global pandemic data using graphs and pie charts, showing the status for different countries and local regions. Built with React, React Hooks, Redux, and Material-UI, the app provides a clear and interactive user interface. This project highlights your ability to work with real-time data and build visually engaging, data-driven applications.",
+      "tags": [
+        {
+          "name": "PandemicTracker",
+          "color": "#4dcc4d"
+        },
+        {
+          "name": "DataVisualization",
+          "color": "#7676ff"
+        },
+        {
+          "name": "MaterialUI",
+          "color": "#915eff"
+        }
+      ],
+      "icon": "",
+      "source_link": "https://covid19-ccf3e.firebaseapp.com/",
+      "source_code_link": "https://github.com/vikas62081/coronatracker"
+    },
+    {
+      "name": "Seminar Hall Management System",
+      "description": "The Seminar Hall Management System is a web application designed to modernize and streamline the process of booking seminar halls across various departments. By digitizing the reservation process, the system eliminates the need for traditional letter-based requests and manual approvals. Users can effortlessly book halls, view availability, and manage reservations online. The application also incorporates an approval workflow to ensure that bookings are reviewed and authorized efficiently. This project significantly enhances operational efficiency and reduces administrative overhead.",
+      "tags": [
+        {
+          "name": "Automation",
+          "color": "#7676ff"
+        },
+        {
+          "name": "WebApplication",
+          "color": "#915eff"
+        },
+        {
+          "name": "DigitalTransformation",
+          "color": "#4dcc4d"
+        }
+      ],
+      "icon": "",
+      "source_link": "http://hall.somee.com/",
+      "source_code_link": "https://github.com/vikas62081"
+    }
+  ],
+  "achievements": [
+    "Finalist: Reached the final round of the National Data Science Student Challenge (2023), securing a top 10 position.",
+    "State-Level Tennis Champion: Won the state-level championship in Table Tennis for two consecutive years (2021, 2022).",
+    "Scholarship Winner: Awarded the prestigious Tech Innovators Scholarship for four consecutive years (2019 - 2023).",
+    "Department Lead: Served as the Head of the Data Science Club in my university (2021 - 2022), leading various student initiatives.",
+    "Top 50 Selection: Chosen among the top 50 students for the Global AI Bootcamp out of 10,000 applicants.",
+    "Academic Excellence Award: Consistently awarded the Academic Excellence Scholarship (2015 - 2023) for outstanding performance.",
+    "Regional Sports Achievement: Played in the regional cricket tournament, representing my district at the U-16 level (2017).",
+    "AI Conference Presenter: Presented a research paper on AI-driven automation at the International AI Summit (2022), receiving commendation from industry experts."
+  ],
+  "skills": [
+    {
+      "title": "Java",
+      "icon": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
+    },
+    {
+      "title": "Spring Boot",
+      "icon": "https://img.icons8.com/?size=512&id=90519&format=png"
+    },
+    {
+      "title": "Python",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+    },
+    {
+      "title": "Fast API",
+      "icon": "https://cdn.worldvectorlogo.com/logos/fastapi.svg"
+    },
+    {
+      "title": "JavaScript",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+    },
+    {
+      "title": "TypeScript",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+    },
+    {
+      "title": "React JS",
+      "icon": "https://cdn-icons-png.flaticon.com/128/875/875209.png"
+    },
+    {
+      "title": "Redux",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-redux-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945118.png"
+    },
+    {
+      "title": "Figma",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+    },
+    {
+      "title": "Node JS",
+      "icon": "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+    },
+    {
+      "title": "HTML 5",
+      "icon": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+    },
+    {
+      "title": "CSS 3",
+      "icon": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+    },
+    {
+      "title": "MongoDB",
+      "icon": "https://img.icons8.com/?size=512&id=74402&format=png"
+    },
+    {
+      "title": "Tailwind CSS",
+      "icon": "https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png"
+    },
+    {
+      "title": "MySql",
+      "icon": "https://img.icons8.com/color/480/000000/mysql-logo.png"
+    },
+    {
+      "title": "git",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-git-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175218.png?f=webp&w=256"
+    },
+    {
+      "title": "Docker",
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919853.png"
+    }
+  ]
+}
