@@ -9,7 +9,7 @@
 
 <br />
 
-[website]: https://github.com/vikas62081/
+[website]:https://vikas62081.github.io/portfolio/
 [twitter]: hhttps://x.com/vikas62081
 [instagram]: https://instagram.com/imvikas62081
 [linkedin]: https://www.linkedin.com/in/vikas62081/
