@@ -1,22 +1,21 @@
-import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { styles } from "../../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../../utils/motion";
 
 import "./Project.scss";
 import { RiLink } from "react-icons/ri";
 import { AiOutlineGithub } from "react-icons/ai";
 import image1 from "../../assets/project/computer.webp";
 import { useResumeProvider } from "../../context";
+import SectionTitle from "../common/SectionTitle";
+import { fadeIn } from "../../utils/motion";
 
 const ProjectCard = ({
   index,
   name,
   description,
   tags,
-  image = image1,
+  icon = image1,
   source_code_link,
   source_link,
 }) => {
@@ -33,7 +32,7 @@ const ProjectCard = ({
     >
       <div className="relative w-full h-[180px]">
         <img
-          src={image}
+          src={icon}
           alt="project_image"
           className="w-full h-full object-cover rounded-2xl"
         />
@@ -88,13 +87,9 @@ const Projects = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
-
-      <div className="w-full flex">
-        <div className="flex flex-wrap justify-center gap-6">
+      <SectionTitle title="Projects." subtitle="My work" />
+      <div className="w-full flex mt-8">
+        <div className="flex flex-wrap justify-center gap-4">
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

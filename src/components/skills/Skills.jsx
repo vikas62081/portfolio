@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import { fadeIn, textVariant } from "../../utils/motion";
+import { fadeIn } from "../../utils/motion";
 import { motion } from "framer-motion";
-import { styles } from "../../styles";
 import { SectionWrapper } from "../hoc";
 import { useResumeProvider } from "../../context";
+import SectionTitle from "../common/SectionTitle";
 
 const Skills = () => {
   const resume = useResumeProvider();
@@ -12,10 +12,8 @@ const Skills = () => {
 
   return (
     <>
-      <motion.div id="tech" variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Skills.</h2>
-      </motion.div>
-      <div className="flex flex-row flex-wrap justify-center gap-8 mt-10">
+      <SectionTitle title="Skills." subtitle={""} />
+      <div className="flex flex-row flex-wrap justify-center gap-4 mt-10">
         {skills.map((tech, index) => (
           <TechnologyCard key={tech.title} technology={tech} index={index} />
         ))}
@@ -36,7 +34,7 @@ const TechnologyCard = ({ technology, index }) => {
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.33, 0.75)}
-      className="flex flex-col items-center p-4 bg-tertiary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
+      className="flex flex-col items-center p-2 bg-tertiary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
       style={{ width: "10rem" }}
     >
       {loading ? (
@@ -47,7 +45,7 @@ const TechnologyCard = ({ technology, index }) => {
         <img
           src={technology.icon}
           alt={`${technology.title} icon`}
-          className="w-16 h-16 object-contain mb-2"
+          className="w-16 h-16 object-contain mb-1"
         />
       )}
       <h5 className="text-lg font-medium text-center">{technology.title}</h5>

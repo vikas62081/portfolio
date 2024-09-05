@@ -10,6 +10,7 @@ import { styles } from "../../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../../utils/motion";
 import { useResumeProvider } from "../../context";
+import SectionTitle from "../common/SectionTitle";
 
 const ExperienceCard = ({ experience }) => {
   const { title, date, companyName, iconLink, iconBg, points } =
@@ -63,15 +64,11 @@ const Experiences = () => {
 
   return (
     <>
-      <motion.div id="experience" variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
-      </motion.div>
-
+      <SectionTitle
+        title="Work Experience."
+        subtitle="What I have done so far"
+        center
+      />
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences?.map((experience, index) => (
