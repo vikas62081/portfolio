@@ -56,30 +56,24 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
       setLoading(true);
-
-      fetch(googlesheetForm, {
-        method: "POST",
-        body: JSON.stringify(form),
-      }).then(
-        (resp) => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-          setErrors({});
-        },
-        (error) => {
-          setLoading(false);
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+      try {
+        const resp = await fetch(googlesheetForm, {
+          method: "POST",
+          body: JSON.stringify(form),
+        });
+      } catch (e) {}
+      setLoading(false);
+      alert("Thank you for your message! I'll be in touch with you shortly.");
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+      setErrors({});
     }
   };
 
