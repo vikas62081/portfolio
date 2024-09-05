@@ -18,6 +18,7 @@ const ProjectCard = ({
   icon = image1,
   source_code_link,
   source_link,
+  navigationColor = "white",
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -39,15 +40,21 @@ const ProjectCard = ({
         <div className="absolute top-0 right-0 flex p-2 space-x-2">
           <div
             onClick={() => window.open(source_link, "_blank")}
-            className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-blue-500"
+            className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-blue-500 "
           >
-            <RiLink className="w-1/2 h-1/2 object-contain text-white" />
+            <RiLink
+              className="w-1/2 h-1/2 object-contain hover:text-white"
+              style={{ color: navigationColor }}
+            />
           </div>
           <div
             onClick={() => window.open(source_code_link, "_blank")}
-            className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-blue-500"
+            className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-blue-500 "
           >
-            <AiOutlineGithub className="w-1/2 h-1/2 object-contain text-white" />
+            <AiOutlineGithub
+              className="w-1/2 h-1/2 object-contain hover:text-white"
+              style={{ color: navigationColor }}
+            />
           </div>
         </div>
       </div>

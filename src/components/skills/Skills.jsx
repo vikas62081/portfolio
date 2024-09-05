@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { useResumeProvider } from "../../context";
 import SectionTitle from "../common/SectionTitle";
+import Spinner from "../common/Spinner";
 
 const Skills = () => {
   const resume = useResumeProvider();
@@ -12,7 +13,7 @@ const Skills = () => {
 
   return (
     <>
-      <SectionTitle title="Skills." subtitle={""} />
+      <SectionTitle title="Skills." subtitle={""} center />
       <div className="flex flex-row flex-wrap justify-center gap-4 mt-10">
         {skills.map((tech, index) => (
           <TechnologyCard key={tech.title} technology={tech} index={index} />
@@ -34,13 +35,11 @@ const TechnologyCard = ({ technology, index }) => {
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.33, 0.75)}
-      className="flex flex-col items-center p-2 bg-tertiary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
+      className="flex flex-col items-center p-4 bg-tertiary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
       style={{ width: "10rem" }}
     >
       {loading ? (
-        <div className="w-16 h-16 flex items-center justify-center mb-2">
-          <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-8 w-8"></div>
-        </div>
+        <Spinner />
       ) : (
         <img
           src={technology.icon}

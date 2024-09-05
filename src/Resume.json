@@ -18,7 +18,8 @@
     "gitHub": "https://github.com/vikas62081",
     "linkedIn": "https://www.linkedin.com/in/vikas62081",
     "instagram": "https://instagram.com/imvikas62081",
-    "others": "https://www.instagram.com"
+    "others": "https://www.instagram.com",
+    "googlesheetForm": "https://script.google.com/macros/s/AKfycbxndFdCNOfV4aUr6Sc1T31IOPKRHQk0_dOFsgyW4kh_2mHZd4S_j_3I3vhVog81qjlZQQ/exec"
   },
   "educations": [
     {
@@ -114,6 +115,7 @@
         },
         { "name": "Fintech", "color": "#6494f0" }
       ],
+      "navigationColor": "black",
       "icon": "data:image/png;base64,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",
       "source_link": "https://github.com/shinchancode/Cryptography",
       "source_code_link": "https://github.com/vikas62081/ucm_simplified"
@@ -156,6 +158,7 @@
           "color": "#915eff"
         }
       ],
+      "navigationColor": "black",
       "icon": "https://www.coronatracker.com/og-corona.png",
       "source_link": "https://covid19-ccf3e.firebaseapp.com/",
       "source_code_link": "https://github.com/vikas62081/coronatracker"
@@ -177,6 +180,7 @@
           "color": "#4dcc4d"
         }
       ],
+      "navigationColor": "black",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0DEvFCwp5mxQka_zWIxN5WjKq5yM_LELiJg&s",
       "source_link": "http://hall.somee.com/",
       "source_code_link": "https://github.com/vikas62081"

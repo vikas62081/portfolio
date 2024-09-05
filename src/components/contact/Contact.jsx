@@ -13,7 +13,8 @@ const Contact = () => {
   const formRef = useRef();
   const resume = useResumeProvider();
 
-  const { email, phoneNumber, whatsAppNumber } = resume || {};
+  const { email, phoneNumber, whatsAppNumber, links } = resume || {};
+  const { googlesheetForm } = links || {};
 
   const [form, setForm] = useState({
     name: "",
@@ -60,22 +61,25 @@ const Contact = () => {
     if (validateForm()) {
       setLoading(true);
 
-      // .then(
-      //   () => {
-      //     setLoading(false);
-      //     alert("Thank you. I will get back to you as soon as possible.");
-      //     setForm({
-      //       name: "",
-      //       email: "",
-      //       message: "",
-      //     });
-      //     setErrors({});
-      //   },
-      //   (error) => {
-      //     setLoading(false);
-      //     alert("Ahh, something went wrong. Please try again.");
-      //   }
-      // );
+      fetch(googlesheetForm, {
+        method: "POST",
+        body: JSON.stringify(form),
+      }).then(
+        (resp) => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+          setErrors({});
+        },
+        (error) => {
+          setLoading(false);
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
     }
   };
 
@@ -151,6 +155,7 @@ const Contact = () => {
           <button
             type="submit"
             className="bg-tertiary py-3 px-5 rounded-xl outline-none w-full text-white font-bold shadow-md shadow-primary hover:bg-[#49a891]"
+            disabled={loading}
           >
             {loading ? "Sending..." : "Send"}
           </button>
