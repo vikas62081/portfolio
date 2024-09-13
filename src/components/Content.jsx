@@ -4,12 +4,13 @@ import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { MdMessage } from "react-icons/md";
 import { BsPersonWorkspace } from "react-icons/bs";
-
+import { GrUserSettings } from "react-icons/gr";
 const navItems = [
   { href: "#", icon: AiOutlineHome, title: "Home" },
   { href: "#education", icon: BiBook, title: "Education" },
   { href: "#project", icon: AiOutlineFundProjectionScreen, title: "Projects" },
   { href: "#experience", icon: BsPersonWorkspace, title: "Experiences" },
+  { href: "#skills", icon: GrUserSettings, title: "Skills" },
   { href: "#contact", icon: MdMessage, title: "Contact" },
 ];
 

@@ -52,4 +52,4 @@ const TechnologyCard = ({ technology, index }) => {
   );
 };
 
-export default SectionWrapper(Skills, "");
+export default SectionWrapper(Skills, "skills");
