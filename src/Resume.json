@@ -55,10 +55,9 @@
       "iconBg": "#383E56",
       "date": "March 2022 - December 2023",
       "points": [
-        "Developed and maintained full-stack applications using Spring Boot and React.js, improving platform efficiency by 30%.",
-        "Implemented event-driven architectures using Apache Kafka, enhancing system scalability and real-time data processing",
-        "Collaborated with cross-functional teams to design and implement RESTful APIs, ensuring seamless integration with front-end applications",
-        "Utilised Docker for containerization, streamlining deployment processes and reducing setup time by 40%"
+        "Spearheaded the development and maintenance of full-stack applications with Spring Boot and React.js, boosting platform efficiency by 30% and enhancing user experience through streamlined front-end development. Architected and implemented event-driven architecture with Apache Kafka, enhancing system scalability and facilitating seamless real-time data processing, supporting a user base of over 5M+ clients.",
+        "Streamlined containerization and orchestration using Docker and Kubernetes, reducing deployment setup time by 40% and improving scalability across microservices.",
+        "Designed and deployed a REST API architecture that optimized data exchange between back-end micro- services and React.js UI, reducing API response time by 40% and creating reusable front-end components."
       ]
     },
     {
@@ -68,17 +67,16 @@
       "iconBg": "#494bc4",
       "date": "June 2019 - March 2022",
       "points": [
-        "Built responsive Single Page Applications (SPAs) using React.js, integrating with Java-based REST APIs",
-        "Designed and developed RESTful APIs using Node.js and Express.js, improving data retrieval speed by 25%",
-        "Conducted unit testing for React.js frontend code using Enzyme, increasing code coverage to 90%",
-        "Mentored junior developers in best practices for full-stack development and version control using Git"
+        "Engineered highly responsive Single Page Applications (SPAs) using React.js, resulting in a 40% reduction in load times by integrating Spring Boot-based REST APIs and optimizing session management with Redis caching.",
+        "Developed and optimized RESTful APIs using Node.js and Express.js, enhancing data retrieval speed by 25%, and implemented gRPC calls to optimize microservice communication and minimize latency.",
+        "Led CI/CD pipeline automation with GitHub Actions, ensuring seamless deployment and reducing downtime by 35%, contributing to faster delivery of high-quality software."
       ]
     }
   ],
   "projects": [
     {
-      "name": "UCM Simplified",
-      "description": "Led a team to develop a university app for students using TypeScript, React.js, Python, FastAPI, and MongoDB. Key features included professor ratings, subject swaps, an accommodation finder, and an integrated mailing system. You also applied data analytics to offer insights into professor ratings and subject popularity.",
+      "name": "Student Connect",
+      "description": "Led a team of four to develop a scalable application for university students, using React.js with TypeScript for the frontend, FastAPI for the backend, and MongoDB for data storage, achieving 20% improvement in usability for over 10+ students. Engineered key features including professor ratings, subject swaps, accommodation finder, and an integrated mailing system, addressing core student needs and improving feature adoption by 15%.",
       "tags": [
         {
           "name": "FastAPI",
@@ -93,13 +91,13 @@
           "color": "#915eff"
         }
       ],
-      "icon": "https://i.pinimg.com/originals/a1/15/67/a1156706d524cb30d89ca7bee50b5d32.png",
-      "source_link": "https://github.com/shinchancode/Cryptography",
+      "icon": "https://stuconnect.in/assets/stuconnect_1-DIJMtAVM.png",
+      "source_link": "https://stuconnect.in/",
       "source_code_link": "https://github.com/vikas62081/ucm_simplified"
     },
     {
       "name": "Unity Funds",
-      "description": "Built a mobile-friendly app with Flutter and Google Firebase to manage village festival finances. It included machine learning algorithms for expense prediction and budget optimization, along with a well-designed admin panel for financial reporting.",
+      "description": "Developed a mobile-friendly application with Flutter and Firebase, streamlining village festival financial management and reducing manual financial errors by 35%. Integrated machine learning algorithms for expense prediction and budget optimization, leading to a 20% increase in financial oversight accuracy and reduced manual reporting time by 50%.",
       "tags": [
         {
           "name": "Flutter",
