@@ -5,16 +5,16 @@
   "phoneNumber": "+1 9132388038",
   "whatsAppNumber": "19132388038",
   "captions": [
-    "Aspiring Software Engineer",
+    "Machine Learning Engineer",
     "Full-Stack Developer",
     "Proficient in React, Spring Boot, and Python",
     "Actively Seeking Internship Opportunities",
-    "YouTuber at CodeNemy",
+    "YouTuber at Codenemy",
     "Passionate Tech Enthusiast"
   ],
   "links": {
     "profilePic": "https://avatars.githubusercontent.com/u/45706086?s=400&u=64f20720036b8963d58d32f5477a18a4e8e8674a&v=4",
-    "resume": "https://drive.google.com/file/d/12wzPw9PxHSm9UXyJVHjed_Bvacy8OQ1Q/view?usp=sharing",
+    "resume": "https://docs.google.com/document/d/1njbwmivA8oWBLkQxZVYqD02eQvQEURkGZ9tGEAd1IMY",
     "gitHub": "https://github.com/vikas62081",
     "linkedIn": "https://www.linkedin.com/in/vikas62081",
     "instagram": "https://instagram.com/imvikas62081",
@@ -49,15 +49,31 @@
   ],
   "experiences": [
     {
+      "title": "Machine Learning Engineer",
+      "companyName": "Thinklusive",
+      "iconLink": "https://thinklusive.com/wp-content/uploads/2024/10/Thinklusive-Logo.svg",
+      "iconBg": "#dddddd",
+      "date": "December 2024 - Present",
+      "points": [
+        "Architected and executed a Python-based service to ingest real-time data from Kafka topics, integrating LLM models such as Llama 3.3 and leveraging OpenAI Whisper (open-source) for advanced NLP capabilities.",
+        "Deployed predictive models to forecast job market trends (e.g., technology skills, geographic hotspots etc), increasing decision-making accuracy by 35% through data-driven analytics and machine learning strategies.",
+        "Integrated LLM capabilities within predictive models and data services to analyze unstructured data and generate context-aware insights, enabling more precise forecasting for dynamic business needs.",
+        "Developed and deployed scalable REST APIs using Python and the FastAPI Framework, incorporating asynchronous processing to efficiently handle high-throughput requests, improving latency by one fourth.",
+        "Identified and resolved critical bugs within the system, significantly improving the stability and reliability of the streaming services, and ensuring a seamless user experience."
+      ]
+    },
+    {
       "title": "Senior Software Engineer",
       "companyName": "Yubi",
       "iconLink": "https://www.go-yubi.com/wp-content/themes/yubi-bee/assets/img/yubi-logo-color.svg",
       "iconBg": "#383E56",
       "date": "March 2022 - December 2023",
       "points": [
-        "Spearheaded the development and maintenance of full-stack applications with Spring Boot and React.js, boosting platform efficiency by 30% and enhancing user experience through streamlined front-end development. Architected and implemented event-driven architecture with Apache Kafka, enhancing system scalability and facilitating seamless real-time data processing, supporting a user base of over 5M+ clients.",
-        "Streamlined containerization and orchestration using Docker and Kubernetes, reducing deployment setup time by 40% and improving scalability across microservices.",
-        "Designed and deployed a REST API architecture that optimized data exchange between back-end micro- services and React.js UI, reducing API response time by 40% and creating reusable front-end components."
+        "Enhanced platform efficiency by 30% through the development of full-stack applications using Spring Boot and React.js, built event-driven architecture with Apache Kafka for real-time data processing.",
+        "Architected and executed a Python-based service to ingest real-time data from Kafka topics, integrating LLM models such as Llama 3.3 and leveraging OpenAI Whisper (open-source) for advanced NLP capabilities.",
+        "Strengthened system reliability with Prometheus and Grafana for monitoring high-availability servers.",
+        "Created comprehensive JUnit, Component, and Integration tests, demonstrating experience in TDD and BDD.",
+        "Implemented CI/CD practices using Jenkins, ensuring continuous delivery across cloud environments (AWS EKS, ECS, S3)"
       ]
     },
     {
@@ -67,9 +83,12 @@
       "iconBg": "#494bc4",
       "date": "June 2019 - March 2022",
       "points": [
-        "Engineered highly responsive Single Page Applications (SPAs) using React.js, resulting in a 40% reduction in load times by integrating Spring Boot-based REST APIs and optimizing session management with Redis caching.",
-        "Developed and optimized RESTful APIs using Node.js and Express.js, enhancing data retrieval speed by 25%, and implemented gRPC calls to optimize microservice communication and minimize latency.",
-        "Led CI/CD pipeline automation with GitHub Actions, ensuring seamless deployment and reducing downtime by 35%, contributing to faster delivery of high-quality software."
+        "Orchestrated RESTful APIs in a Java, Spring Boot microservices architecture, decreasing API response time by 30%, showcasing advanced application and software design understanding.",
+        "Engineered robust APIs in a Spring Boot architecture, leveraging Spring JPA for streamlined data access and incorporating Spring Security for enhanced API security with token-based authentication, achieving a 30% increase in efficiency.",
+        "Boosted application performance for high-traffic scenarios by integrating Redis for caching and session management.",
+        "Enhanced fault tolerance with event-driven microservices to handle high-throughput streaming data.",
+        "Generated responsive user interfaces using React.js with Redux as a state management, seamlessly integrating them with Spring Boot REST APIs.",
+        "Diagnosed and resolved complex bugs in UI and backend systems, leveraging tools like Postman, Redux DevTools, and Spring Boot debugging utilities, ensuring seamless integration and enhanced system stability."
       ]
     }
   ],
@@ -262,6 +281,14 @@
     {
       "title": "Docker",
       "icon": "https://cdn-icons-png.flaticon.com/512/919/919853.png"
+    },
+    {
+      "title": "Kafka",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg"
+    },
+    {
+      "title": "AWS",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
     }
   ]
 }
